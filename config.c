@@ -15,6 +15,8 @@
 #include <stdbool.h>
 #include <sys/stat.h>
 
+#include <stdlib.h>
+
 INCTXT(ConfigFile, "example_files/config");
 
 // add your custom shaders to be installed here

@@ -817,7 +817,7 @@ as of 0.4.0 all options are specified in config file, see in '/home/username/.co
                             cava_out[n] *= *dimension_value;
                         }
                     } else {
-                        // cava_out[n] *= p.sens;
+                        cava_out[n] *= p.sens;
                     }
                     if (output_mode == OUTPUT_SDL_GLSL) {
                         if (cava_out[n] > 1.0)
